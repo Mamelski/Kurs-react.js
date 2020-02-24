@@ -1,11 +1,11 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-function Dialog() {
+function Dialog({ title, content }) {
   return (
     <div>
       <dialog open>
-        <h1>Tytuł</h1>
-        <p>Treść</p>
+        <h1>{title}</h1>
+        <p>{content}</p>
       </dialog>
     </div>
   );
