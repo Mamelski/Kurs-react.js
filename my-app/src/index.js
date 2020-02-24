@@ -5,7 +5,7 @@ import './index.css';
 
 const element = (
   <div>
-    <Dialog title="Wow" content="Pobrałem tytuł z propsów" />
+    <Dialog content="Wow, pobrałem tytuł z propsów" />
   </div>
 );
 

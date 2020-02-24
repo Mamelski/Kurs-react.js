@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Dialog({ title, content }) {
+function Dialog({ title = "Domyślny tytuł", content }) {
   return (
     <div>
       <dialog open>
