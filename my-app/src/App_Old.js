@@ -23,14 +23,10 @@ const element = (
 );
 
 
-class App extends Component {
+class App_Old extends Component {
   render() {
     return (
-      <div>
-        <header className="ui fixed menu">
-          {element}
-        </header>
-      </div>
+      element
     );
   }
 }
