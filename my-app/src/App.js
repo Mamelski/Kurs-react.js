@@ -54,7 +54,13 @@ class App extends Component {
                 <div className="description">Human Resources</div>
               </div>
             </li>
-
+            <li class="item">
+              <img src="https://api.adorable.io/avatars/55/typeofweb3.png" className="ui mini rounded image" />
+              <div className="content">
+                <h4 className="header">Rick</h4>
+                <div className="description">QA</div>
+              </div>
+            </li>
           </ul>
         </main>
       </div>
