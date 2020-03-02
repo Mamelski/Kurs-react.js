@@ -38,6 +38,18 @@ class App extends Component {
             </div>
           </nav>
         </header>
+        <main className="ui main text container">
+          <ul className="ui relaxed divided list section">
+            <li className="item">
+              <img src="https://api.adorable.io/avatars/55/typeofweb1.png" className="ui mini rounded image" />
+              <div className="content">
+                <h4 className="header">Lena</h4>
+                <div className="description">JavaScript developer</div>
+              </div>
+            </li>
+
+          </ul>
+        </main>
       </div>
     );
   }
