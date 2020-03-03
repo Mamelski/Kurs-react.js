@@ -26,6 +26,7 @@ const element = (
 class App extends Component {
   render() {
     return (
+
       <div>
         <header className="ui fixed menu">
           <nav className="ui container">
@@ -38,6 +39,8 @@ class App extends Component {
             </div>
           </nav>
         </header>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.13/semantic.min.css"></link>
+
         <main className="ui main text container">
           <ul className="ui relaxed divided list section">
             <li className="item">
