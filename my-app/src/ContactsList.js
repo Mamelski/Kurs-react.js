@@ -1,7 +1,7 @@
 import React from 'react';
 import ContactItem from './ContactItem';
 
-function ContactList() {
+function ContactsList() {
   return (
     <ul className="ui relaxed divided list selection">
       <ContactItem
@@ -23,4 +23,4 @@ function ContactList() {
   )
 }
 
-export default ContactList;
+export default ContactsList;
