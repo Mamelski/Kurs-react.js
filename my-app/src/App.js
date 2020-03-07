@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './App.css';
-import Dialog from './Dialog'
 
 function App() {
   return (
