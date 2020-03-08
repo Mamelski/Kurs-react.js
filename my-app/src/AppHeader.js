@@ -7,7 +7,7 @@ function AppHeader() {
         <a href="#" className="header item">
           <img className="logo" src="https://typeofweb.com/wp-content/uploads/2017/08/cropped-typeofweb_logo-04-white-smaller-1-e1504359870362.png" />
           Lista kontaktów
-            </a>
+        </a>
         <div className="header item">
           <button className="ui button">Dodaj</button>
         </div>
