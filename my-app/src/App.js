@@ -9,20 +9,22 @@ function onClickHandler() {
 
 class App extends Component {
   render() {
-    return <button onClick={this.onClickHandler}>Kliknij!</button>;
-  }
-  onClickHandler() {
-    alert("Kliknięto!");
+    //     return <button onClick={this.onClickHandler}>Kliknij!</button>;
+    //   }
+    //   onClickHandler() {
+    //     alert("Kliknięto!");
+    //   }
+    // }
+    return (
+      <div>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.13/semantic.min.css"></link>
+        <AppHeader />
+        <main className="ui main text container">
+          <ContactsList />
+        </main>
+      </div>)
   }
 }
-// return (
-//   <div>
-//     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.13/semantic.min.css"></link>
-//     <AppHeader />
-//     <main className="ui main text container">
-//       <ContactsList />
-//     </main>
-//   </div>
 
 
 export default App;
