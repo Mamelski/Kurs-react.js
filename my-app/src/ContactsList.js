@@ -11,7 +11,7 @@ class ContactsList extends Component {
           department="JavaScript Developer"
         />
         <ContactItem
-          login="typeofweb2"
+          login="aaa@wp.pl"
           name="Brian"
           department="Human Resources"
         />
