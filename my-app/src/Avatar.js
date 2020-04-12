@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import MD5 from "crypto-js/md5";
 
 class Avatar extends Component {
 
@@ -8,9 +9,17 @@ class Avatar extends Component {
     return expression.test(String(email).toLowerCase())
   }
 
+  getHashFromEmail(email) {
+    let trimmed = email.trim();
+    let lowerTrimmed = trimmed.toLowerCase();
+    console.log(MD5("Message").toString());
+
+    return "a";
+  }
+
   render() {
     const { login } = this.props;
-
+    this.getHashFromEmail(login);
     let imgUrl = this.validate(login)
       ? `https://api.adorable.io/avatars/55/typeofweb1.png`
       : `https://api.adorable.io/avatars/55/${login}.png`;
