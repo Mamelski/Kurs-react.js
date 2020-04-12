@@ -11,12 +11,12 @@ class ContactsList extends Component {
           department="JavaScript Developer"
         />
         <ContactItem
-          login="aaa@wp.pl"
+          login="email1@email.pl"
           name="Brian"
           department="Human Resources"
         />
         <ContactItem
-          login="typeofweb3"
+          login="email3@email.pl"
           name="Rick"
           department="QA"
         />
