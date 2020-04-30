@@ -1,9 +1,9 @@
-import React from 'react';
-import Avatar from './Avatar';
+import React from "react";
+import Avatar from "./Avatar";
 
 class ContactItem extends React.Component {
   render() {
-    const { login, name, department } = this.props
+    const { login, name, department } = this.props;
     return (
       <li className="item">
         <Avatar login={login} />
@@ -16,4 +16,4 @@ class ContactItem extends React.Component {
   }
 }
 
-export default ContactItem
+export default ContactItem;

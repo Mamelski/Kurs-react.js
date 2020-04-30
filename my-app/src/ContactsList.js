@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import ContactItem from './ContactItem';
+import React, { Component } from "react";
+import ContactItem from "./ContactItem";
 
 class ContactsList extends Component {
   render() {
@@ -15,13 +15,9 @@ class ContactsList extends Component {
           name="Brian"
           department="Human Resources"
         />
-        <ContactItem
-          login="email3@email.pl"
-          name="Rick"
-          department="QA"
-        />
+        <ContactItem login="email3@email.pl" name="Rick" department="QA" />
       </ul>
-    )
+    );
   }
 }
 
