@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import AppHeader from './AppHeader';
 import ContactsList from './ContactsList';
+import MyForm from './MyForm';
 
 function onClickHandler() {
   alert('Kliknięto!');
@@ -22,6 +23,7 @@ class App extends Component {
         <main className="ui main text container">
           <ContactsList />
         </main>
+          <MyForm/>
       </div>)
   }
 }
