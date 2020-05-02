@@ -3,6 +3,7 @@ import "./App.css";
 import AppHeader from "./AppHeader";
 import ContactsList from "./ContactsList";
 import MyForm from "./MyForm";
+import MyComponent from "./MyComponent";
 
 function onClickHandler() {
   alert("Kliknięto!");
@@ -10,12 +11,6 @@ function onClickHandler() {
 
 class App extends Component {
   render() {
-    //     return <button onClick={this.onClickHandler}>Kliknij!</button>;
-    //   }
-    //   onClickHandler() {
-    //     alert("Kliknięto!");
-    //   }
-    // }
     return (
       <div>
         <link
@@ -27,6 +22,7 @@ class App extends Component {
           <ContactsList />
         </main>
         <MyForm />
+        <MyComponent/>
       </div>
     );
   }
