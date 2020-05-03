@@ -5,10 +5,6 @@ import ContactsList from "./ContactsList";
 import MyForm from "./MyForm";
 import MyComponent from "./MyComponent";
 
-function onClickHandler() {
-  alert("Kliknięto!");
-}
-
 class App extends Component {
   render() {
     return (
