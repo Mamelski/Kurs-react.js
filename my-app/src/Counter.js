@@ -5,10 +5,17 @@ class Counter extends Component{
         super();
         this.state = {counter: 0};
     }
+
+    increment() {
+        this.setState({
+            counter: this.state.counter + 1
+        })
+    }
+
     render() {
         return (
             <div>
-                <button>+</button>
+                <button onClick={this.increment}>+</button>
                 <output>{this.state.counter}</output>
                 <button>-</button>
             </div>
